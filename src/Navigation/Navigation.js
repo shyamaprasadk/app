@@ -9,7 +9,7 @@ const Navigation = () => (
   <NavigationContainer>
     <Stack.Navigator initialRouteName="HomeScreen">
       <Stack.Screen name="HomeScreen" component={HomeScreen} />
-    </Stack.Navigator>
+    </Stack.Navigator> 
   </NavigationContainer>
 ); 
 
