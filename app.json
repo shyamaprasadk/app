@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Bore",
-    "slug": "Bore",
+    "name": "Do Something",
+    "slug": "Do_Something",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,10 +24,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.shyam.DoSomething"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e8edb8c0-f143-42da-b854-ace498d8ec1f"
+      }
     }
   }
 }
