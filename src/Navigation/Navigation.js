@@ -11,6 +11,6 @@ const Navigation = () => (
       <Stack.Screen name="HomeScreen" component={HomeScreen} />
     </Stack.Navigator>
   </NavigationContainer>
-);
+); 
 
 export default Navigation;
